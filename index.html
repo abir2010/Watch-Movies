@@ -3,9 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        nav, ul, #banner, .movie{
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+            padding: 20px 100px 20px 100px;
+        }
+        .movie{
+            margin: 20px 150px 20px 150px;
+            box-shadow: 10px 10px 30px gray;
+            background-color: gray;
+        }
+        footer{
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
     <title>Watch Movies - Home</title>
 </head>
 <body>
-    
+    <!-- header section starts -->
+    <header>
+        <!-- nav section starts -->
+        <nav>
+            <div>
+                <img width="150" height="80" src="images/logo.png" alt="">
+            </div>
+            <div>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                </ul>
+            </div>
+        </nav>
+        <!-- nav section ends -->
+        <!-- banner section starts -->
+        <section id="banner">
+            <div>
+                <h1>Welcome to Watch Movies</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo adipisci ducimus eligendi a laboriosam reprehenderit voluptas non quibusdam, sed in possimus ipsam inventore nesciunt dolorem, corporis fugit fuga accusamus nam. Omnis eveniet iusto odio maiores fugiat provident nam ipsam?</p>
+                <button>Watch Movie Now</button>
+            </div>
+            <div>
+                <img width="600" height="500" src="images/banner.png" alt="">
+            </div>
+        </section>
+        <!-- header section ends -->
+    </header>
+    <!-- header section ends -->
+    <!-- main section starts -->
+    <main>
+        <!-- single movie section starts -->
+        <div class="movie">
+            <div>
+                <img width="250" height="400" src="images/darkknight.webp" alt="">
+            </div>
+            <div>
+                <h2>Dark Knight</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quasi illum repudiandae sequi tenetur numquam odio vitae ea accusamus illo quam, nam odit ipsum excepturi nostrum molestias obcaecati ex adipisci.</p>
+                <p>Realease Date : 2020</p>
+            </div>
+        </div>
+        <!-- single movie section ends -->
+        <br><br>
+        <!-- single movie section starts -->
+        <div class="movie">
+            <div>
+                <img width="250" height="400" src="images/Godzilla.webp" alt="">
+            </div>
+            <div>
+                <h2>Godzilla</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quasi illum repudiandae sequi tenetur numquam odio vitae ea accusamus illo quam, nam odit ipsum excepturi nostrum molestias obcaecati ex adipisci.</p>
+                <p>Realease Date : 2021</p>
+            </div>
+        </div>
+        <!-- single movie section ends -->
+        <br><br>
+        <!-- single movie section starts -->
+        <div class="movie">
+            <div>
+                <img width="250" height="400" src="images/godfather.jpg" alt="">
+            </div>
+            <div>
+                <h2>God Father</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quasi illum repudiandae sequi tenetur numquam odio vitae ea accusamus illo quam, nam odit ipsum excepturi nostrum molestias obcaecati ex adipisci.</p>
+                <p>Realease Date : 2000</p>
+            </div>
+        </div>
+        <!-- single movie section ends -->
+        <br><br>
+        <!-- single movie section starts -->
+        <div class="movie">
+            <div>
+                <img width="250" height="400" src="images/jaws.webp" alt="">
+            </div>
+            <div>
+                <h2>Jaws</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quasi illum repudiandae sequi tenetur numquam odio vitae ea accusamus illo quam, nam odit ipsum excepturi nostrum molestias obcaecati ex adipisci.</p>
+                <p>Realease Date : 2019</p>
+            </div>
+        </div>
+        <br><br>
+        <!-- single movie section ends -->
+    </main>
+    <!-- header section ends -->
+    <!-- footer section starts -->
+    <footer>
+        <img width="150" height="80" src="images/logo.png" alt="">
+        <p>All right reserved Watch Movies @2024</p>
+    </footer>
+    <!-- header section ends -->
 </body>
 </html>
